@@ -15,3 +15,20 @@ if the user could not get the answer correct then print "you have used up all 3 
 
 
 """
+
+"""
+main():
+     question = what is the capitol of california 
+     answer = sacramento
+     ask(question, answer)
+
+ask():
+    tries = 0
+    loop three times
+        increment three tries
+        ask user input
+        check if user input is equal to answer
+        if so print "Correct!" and exit loop
+"""
+
+
