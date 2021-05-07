@@ -31,4 +31,24 @@ ask():
         if so print "Correct!" and exit loop
 """
 
+def main():
+    question = "What is a capitol of California? \n"
+    answer = "Sacramento"
+    ask(question, answer)
 
+def ask(question, answer, max_tries = 3):
+    tries = 0
+    ans = ""
+    while tries < max_tries:
+        tries += 1
+        ans = input(question)
+        if ans == answer:
+            print("Correct!")
+            break
+        if ans != answer:
+            print("You used one of your guesses")
+    if ans != answer:
+            print("game over")
+
+
+main()
